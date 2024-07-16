@@ -1,0 +1,10 @@
+verbosity=1
+bootlogo=true
+console=serial
+disp_mode=1024x600p60
+extraargs=drm_kms_helper.edid_firmware=HDMI-A-1:edid/1024x600.bin video=HDMI-A-1:1024x600@60
+overlay_prefix=sun50i-h616
+rootdev=UUID=0d659f2c-9e1e-44ca-a207-199228975819
+rootfstype=ext4
+overlays=gpu
+usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
